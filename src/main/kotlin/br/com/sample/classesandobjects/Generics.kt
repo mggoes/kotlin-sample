@@ -1,6 +1,6 @@
 package br.com.sample.classesandobjects
 
-fun main(args: Array<String>) {
+fun main() {
 //    val b1 = Box<Int>(1)
 //    println(b1.value)
 //

@@ -2,7 +2,7 @@ package br.com.sample.basics
 
 import br.com.sample.gettingstarted.parseInt
 
-fun main(args: Array<String>) {
+fun main() {
     /**
      * If - No Kotlin if é uma expressão e retorna um resultado, por isso não existe if ternário
      */
@@ -28,7 +28,6 @@ fun main(args: Array<String>) {
         2, 3, 5 -> println("Two, Three or Five") // Se muitos casos devem ser tratados de forma igual, é possível utilizar ,
         parseInt(max.toString()) -> println("A hundred String") // É possível utilizar expressões, não apenas constantes
         in 1..50 -> println("It is in range")
-        is Int -> println("It is int")
         else -> {
             println("Else")
         }
@@ -47,7 +46,7 @@ fun main(args: Array<String>) {
     for (item in items) println(item)
 
     for (i in 1..3) {
-        print(i.toString() + ",")
+        print("$i,")
     }
 
     for (i in 6 downTo 0 step 2) println(i)

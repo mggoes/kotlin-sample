@@ -1,6 +1,6 @@
 package br.com.sample.classesandobjects
 
-fun main(args: Array<String>) {
+fun main() {
     val foo = Outer.Nested().foo()
     println(foo)
 

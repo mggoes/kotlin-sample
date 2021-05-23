@@ -1,10 +1,10 @@
 package br.com.sample.functionsandlambdas
 
-fun main(args: Array<String>) {
+fun main() {
     /**
      * Simple lambda
      */
-    val sum = sum(10, 20, { num1, num2 -> num1 + num2 })
+    val sum = sum(10, 20) { num1, num2 -> num1 + num2 }
     println("Sum is ${sum}")
 
     /**
@@ -37,7 +37,7 @@ fun main(args: Array<String>) {
     var r = lambdaTest(Int::times)
     println(r)
     // Ou
-    r = lambdaTest({ n1, n2 -> n1 * n2 })
+    r = lambdaTest { n1, n2 -> n1 * n2 }
     println(r)
 
     /**

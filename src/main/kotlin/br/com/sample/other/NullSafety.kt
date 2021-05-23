@@ -2,7 +2,7 @@ package br.com.sample.other
 
 import java.time.LocalDate
 
-fun main(args: Array<String>) {
+fun main() {
     /**
      * Em Kotlin nao e possivel executar funcoes ou acessar membros explicitamente de
      * referencias que podem ser nulas
@@ -82,7 +82,7 @@ fun main(args: Array<String>) {
     var d: String? = "Teste"
     println(d!!.length)
     d = null
-    println(d!!.length)
+//    println(d!!.length) // Compilation error
 }
 
 data class Employer(val name: String?, var data: EmployerData?)

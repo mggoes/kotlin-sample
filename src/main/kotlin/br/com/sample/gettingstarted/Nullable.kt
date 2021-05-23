@@ -1,6 +1,6 @@
 package br.com.sample.gettingstarted
 
-fun main(args: Array<String>) {
+fun main() {
     val x = parseInt("a")
     println(x)
 

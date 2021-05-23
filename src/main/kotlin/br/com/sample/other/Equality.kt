@@ -1,6 +1,6 @@
 package br.com.sample.other
 
-fun main(args: Array<String>) {
+fun main() {
     /**
      * Em Kotlin existem dois tipos de igualdade: estrutural e
      * referencial.

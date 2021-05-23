@@ -1,6 +1,6 @@
 package br.com.sample.gettingstarted
 
-fun main(args: Array<String>) {
+fun main() {
     println("max of 10 and 20 is ${maxOf(10, 20)}")
     println("max of 20 and 30 is ${max(20, 30)}")
 }

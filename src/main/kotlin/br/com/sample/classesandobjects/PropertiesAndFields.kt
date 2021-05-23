@@ -13,7 +13,7 @@ import java.time.LocalDate
  */
 const val PROP = "Some property"
 
-fun main(args: Array<String>) {
+fun main() {
 //    val address = Address("Faria Lima", "SP")
 //    val newAddress = copyAddress(address)
 //    println(newAddress.street)

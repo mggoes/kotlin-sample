@@ -1,6 +1,6 @@
 package br.com.sample.other
 
-fun main(args: Array<String>) {
+fun main() {
     /**
      * Declaracoes desestruturadas permitem extrair os campos dos objetos para dentro
      * de variaveis.

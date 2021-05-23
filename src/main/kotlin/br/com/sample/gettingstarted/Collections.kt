@@ -1,6 +1,6 @@
 package br.com.sample.gettingstarted
 
-fun main(args: Array<String>) {
+fun main() {
     val items = listOf("Item 1", "Item 2", "Item 3", "Item 4", "Item 5")
 
     when {

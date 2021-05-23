@@ -1,6 +1,6 @@
 package br.com.sample.classesandobjects
 
-fun main(args: Array<String>) {
+fun main() {
     val child = Child(10)
     child.bar()
     child.foo()

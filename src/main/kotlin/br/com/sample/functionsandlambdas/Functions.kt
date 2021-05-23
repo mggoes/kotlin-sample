@@ -20,7 +20,7 @@ fun main(args: Array<String>) {
     /**
      * Named parameters com varargs e preciso utilizar o operador de extensao *
      */
-    varargsFun(texts = *arrayOf("text 1", "text 2"))
+    varargsFun(texts = arrayOf("text 1", "text 2"))
 
     sum(10.1, 10.2)
 

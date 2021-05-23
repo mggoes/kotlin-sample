@@ -1,6 +1,6 @@
 package br.com.sample.gettingstarted
 
-fun main(args: Array<String>) {
+fun main() {
     show("Teste")
     show(null)
     show(1)

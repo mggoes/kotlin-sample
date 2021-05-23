@@ -1,7 +1,7 @@
 package br.com.sample.other
 
 
-fun main(args: Array<String>) {
+fun main() {
     /**
      * =============================================================
      * Smart automatic casts

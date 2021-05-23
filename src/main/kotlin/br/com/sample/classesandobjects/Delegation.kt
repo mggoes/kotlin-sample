@@ -1,6 +1,6 @@
 package br.com.sample.classesandobjects
 
-fun main(args: Array<String>) {
+fun main() {
     val base: BaseInter = BaseImpl()
     val derived = DerivedImpl(base)
     derived.process()

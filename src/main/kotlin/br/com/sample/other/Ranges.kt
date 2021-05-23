@@ -1,6 +1,6 @@
 package br.com.sample.other
 
-fun main(args: Array<String>) {
+fun main() {
     val value = 5
     if (value in 1..10) {
         println("$value is in range")

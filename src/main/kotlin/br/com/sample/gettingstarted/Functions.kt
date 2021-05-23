@@ -1,6 +1,6 @@
 package br.com.sample.gettingstarted
 
-fun main(args: Array<String>) {
+fun main() {
     println("Hello world!")
     println("Sum1: " + sum1(10, 20))
     println("Sum2: " + sum2(10, 20))

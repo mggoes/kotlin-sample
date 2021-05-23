@@ -1,6 +1,6 @@
 package br.com.sample.basics
 
-fun main(args: Array<String>) {
+fun main() {
     println("Start")
     loop()
 

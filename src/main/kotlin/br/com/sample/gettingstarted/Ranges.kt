@@ -1,6 +1,6 @@
 package br.com.sample.gettingstarted
 
-fun main(args: Array<String>) {
+fun main() {
     // Checks if a number is in the range
     val x = 10
     val y = 9

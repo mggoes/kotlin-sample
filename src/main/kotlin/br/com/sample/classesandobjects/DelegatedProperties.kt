@@ -3,7 +3,7 @@ package br.com.sample.classesandobjects
 import kotlin.properties.Delegates
 import kotlin.reflect.KProperty
 
-fun main(args: Array<String>) {
+fun main() {
     val h = Holder()
     println(h.prop)
     h.prop = "test"

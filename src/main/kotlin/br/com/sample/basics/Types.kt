@@ -2,7 +2,7 @@ package br.com.sample.basics
 
 import java.util.*
 
-fun main(args: Array<String>) {
+fun main() {
     /**
      * Numbers - Literal Constants
      */

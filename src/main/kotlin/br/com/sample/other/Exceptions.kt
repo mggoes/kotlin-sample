@@ -1,6 +1,6 @@
 package br.com.sample.other
 
-fun main(args: Array<String>) {
+fun main() {
     /**
      * Handling an exception
      */

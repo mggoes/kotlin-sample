@@ -2,7 +2,7 @@ package br.com.sample.other
 
 const val TEXT = "Some Text"
 
-fun main(args: Array<String>) {
+fun main() {
     /**
      * Obtendo uma referencia de classe
      */

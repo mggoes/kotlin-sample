@@ -7,7 +7,7 @@ typealias RT = RuntimeException
 
 typealias SimpleHandler = () -> Unit
 
-fun main(args: Array<String>) {
+fun main() {
     println(RT::class)
 
     val h: SimpleHandler = {

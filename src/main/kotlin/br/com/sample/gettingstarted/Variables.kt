@@ -7,7 +7,7 @@ package br.com.sample.gettingstarted
 val test = "Test"
 var test2 = "Test 2"
 
-fun main(args: Array<String>) {
+fun main() {
     var a: Int = 1
     println(a)
 

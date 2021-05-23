@@ -1,6 +1,6 @@
 package br.com.sample.classesandobjects
 
-fun main(args: Array<String>) {
+fun main() {
     "Teste".prettyPrint()
 
     val list = mutableListOf(1, 2, 3, 4, 5)

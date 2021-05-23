@@ -10,7 +10,7 @@ package br.com.sample.functionsandlambdas
  * Inline functions nao podem chamar funcoes nao publicas (marcadas com private
  * ou internal).
  */
-fun main(args: Array<String>) {
+fun main() {
     simpleFun({ println("Inline test") }) { println("Inline test 2") }
 
     reifiedFun<String>()

@@ -2,7 +2,7 @@ package br.com.sample.gettingstarted
 
 val test3: Any? = null
 
-fun main(args: Array<String>) {
+fun main() {
     check("Teste")
     check(test3)
 }
